@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trawell - Travel & Tour Agency</title>
+    <meta name="description" content="trawell creates curated travel experiences, premium tours, and unforgettable journeys for modern explorers." />
+    <meta property="og:title" content="trawell - Travel & Tour Agency" />
+    <meta property="og:description" content="Curated journeys for modern explorers." />
+    <meta property="og:image" content="/opengraph.jpg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" id="siteHeader">
+         <nav class="navbar navbar-expand-lg trawell-nav" aria-label="Main navigation"> 
+           <div class="container nav-div px-1 p-0 px-lg-4"> 
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#home" aria-label="trawell home">
+              <span class="brand-mark"><i class="bi bi-asterisk"></i></span>
+              <span class="brand-text">Trawell</span>
+            </a>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span><span></span><span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+                <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experiences">Experiences</a></li>
+              </ul>
+              <a class="btn nav-cta" href="#contact">Plan A Trip</a>
+            </div>
+          </div> 
+        </nav> 
+      </header>
+      
+
+      <main> 
+        <section class="hero-frame" id="home">
+          <div class="hero-bg"></div>
+          <div class="hero-grid"></div>
+          <div class="hero-overlay"></div>
+
+          <div class="container hero-content text-center">
+            <p class="eyebrow reveal">Curated Travel Experiences</p>
+            <h1 class="hero-title reveal delay-1">Curated <span>Journeys</span> for<br class="d-none d-md-block" /> Modern Explorers</h1>
+            <p class="hero-copy reveal delay-2">trawell designs thoughtfully crafted travel experiences that balance comfort, culture, and discovery.</p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 reveal delay-3">
+              <a href="#packages" class="btn btn-gold">Get Started</a>
+              <a href="#destinations" class="btn btn-glass">Destinations</a>
+            </div>
+          </div>
+
+          <div class="hero-logos d-none d-md-flex">
+            <span><i class="bi bi-snow2"></i> Logoipsum</span>
+            <span><i class="bi bi-droplet-half"></i> Logoipsum</span>
+            <span><i class="bi bi-compass"></i> Logoipsum</span>
+            <span><i class="bi bi-life-preserver"></i> Logoipsum</span>
+            <span><i class="bi bi-box-seam"></i> Logoipsum</span>
+            <span><i class="bi bi-link-45deg"></i> Logoipsum</span>
+          </div>
+        </section>
+
+        <section class="booking-panel-section">
+          <div class="container">
+            <form class="booking-panel reveal" id="bookingForm">
+              <div class="row g-3 align-items-end">
+                <div class="col-12 col-md-6 col-xl-3">
+                  <label for="location">Location</label>
+                  <div class="input-wrap"><i class="bi bi-geo-alt"></i><input id="location" type="text" placeholder="Where to?" /></div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                  <label for="date">Date</label>
+                  <div class="input-wrap"><i class="bi bi-calendar3"></i><input id="date" type="text" placeholder="When?" /></div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                  <label for="guests">Guests</label>
+                  <div class="input-wrap"><i class="bi bi-people"></i><input id="guests" type="text" placeholder="How many?" /></div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                  <button class="btn btn-search w-100" type="submit"><i class="bi bi-search"></i> Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="section-pad" id="about">
+          <div class="container">
+            <div class="row align-items-center g-5">
+              <div class="col-lg-6 reveal">
+                <div class="image-collage">
+                  <img class="main-img" src="./images/bali (1).jpg" alt="Luxury coastline destination" />
+                  <img class="float-img" src="./images/bali-3.jpg" alt="Hot air balloon travel experience" />
+                  <div class="experience-badge"><strong>15+</strong><span>Years Experience</span></div>
+                </div>
+              </div>
+              <div class="col-lg-6 reveal delay-1">
+                <span class="section-label">About trawell</span>
+                <h2 class="section-title">We create personal journeys with a premium human touch.</h2>
+                <p class="lead-text">Every itinerary is shaped around atmosphere, culture, comfort, and the small details that make a trip feel effortless.</p>
+                <div class="feature-list">
+                  <div><i class="bi bi-check-circle-fill"></i><span>Handpicked stays, guides, and destination moments.</span></div>
+                  <div><i class="bi bi-check-circle-fill"></i><span>Flexible planning from first call to final return.</span></div>
+                  <div><i class="bi bi-check-circle-fill"></i><span>Private support for families, couples, and groups.</span></div>
+                </div>
+                <a href="#contact" class="btn btn-dark-green mt-4">Read Our Story</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad soft-bg" id="destinations">
+          <div class="container">
+            <div class="section-heading text-center reveal">
+              <span class="section-label">Top Destinations</span>
+              <h2 class="section-title">Popular Places To Visit</h2>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-6 col-xl-4 reveal">
+                <article class="destination-card">
+                  <img src="./images/finland.jpg" alt="Kyoto Japan" />
+                  <div class="rating"><i class="bi bi-star-fill"></i> 4.9</div>
+                  <div class="card-body-custom">
+                    <h3>Kyoto, Japan</h3><p>Ancient temples, lantern-lit lanes, refined inns, and garden mornings.</p>
+                    <div class="meta"><span><i class="bi bi-clock"></i> 7 Days</span><strong>$1,200</strong></div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-6 col-xl-4 reveal delay-1">
+                <article class="destination-card large-card">
+                  <img src="./images/finland2.jpg" alt="Santorini Greece" />
+                  <div class="rating"><i class="bi bi-star-fill"></i> 4.8</div>
+                  <div class="card-body-custom">
+                    <h3>Santorini, Greece</h3><p>Clifftop suites, private sailing, volcanic beaches, and sunset.</p>
+                    <div class="meta"><span><i class="bi bi-clock"></i> 10 Days</span><strong>$1,850</strong></div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-6 col-xl-4 reveal delay-2">
+                <article class="destination-card">
+                  <img src="./images/italy-4 (1).jpg" alt="Swiss Alps" />
+                  <div class="rating"><i class="bi bi-star-fill"></i> 5.0</div>
+                  <div class="card-body-custom">
+                    <h3>Swiss Alps</h3><p>Glacier rail routes, alpine lodges, spa evenings, and crisp mountain air.</p>
+                    <div class="meta"><span><i class="bi bi-clock"></i> 5 Days</span><strong>$2,100</strong></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad" id="packages">
+          <div class="container">
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-4 mb-5 reveal">
+              <div>
+                <span class="section-label">Featured Packages</span>
+                <h2 class="section-title mb-0">Journeys designed around unforgettable moments.</h2>
+              </div>
+              <a href="#contact" class="btn btn-outline-green">View All Packages <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="row g-4">
+              <div class="col-lg-4 reveal">
+                <article class="tour-card">
+                  <img src="./images/japan (1).jpg" alt="African safari" />
+                  <div class="tour-content">
+                    <span class="tour-location"><i class="bi bi-geo-alt"></i> Kenya & Tanzania</span>
+                    <h3>African Safari Adventure</h3>
+                    <p>Wildlife drives, elegant tented camps, and expert-led photography.</p>
+                    <div class="tour-info"><span><i class="bi bi-calendar3"></i> 12 Days</span><span><i class="bi bi-people"></i> 4-8 People</span></div>
+                    <div class="tour-bottom"><strong>$3,450</strong><a href="#contact">Book Tour</a></div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-4 reveal delay-1">
+                <article class="tour-card featured-tour">
+                  <img src="./images/italy2.jpg" alt="Cappadocia balloons" />
+                  <div class="tour-content">
+                    <span class="tour-location"><i class="bi bi-geo-alt"></i> Turkey</span>
+                    <h3>Cappadocia Sunrise Magic</h3>
+                    <p>Balloon flights, cave hotels, old valleys, and regional dining.</p>
+                    <div class="tour-info"><span><i class="bi bi-calendar3"></i> 8 Days</span><span><i class="bi bi-people"></i> 2-12 People</span></div>
+                    <div class="tour-bottom"><strong>$1,950</strong><a href="#contact">Book Tour</a></div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-4 reveal delay-2">
+                <article class="tour-card">
+                  <img src="./images/maldive1.jpg" alt="Northern lights" />
+                  <div class="tour-content">
+                    <span class="tour-location"><i class="bi bi-geo-alt"></i> Norway</span>
+                    <h3>Arctic Aurora Expedition</h3>
+                    <p>Glass igloos, husky trails, snowy fjords, and late-night aurora chasing.</p>
+                    <div class="tour-info"><span><i class="bi bi-calendar3"></i> 6 Days</span><span><i class="bi bi-people"></i> 2-6 People</span></div>
+                    <div class="tour-bottom"><strong>$2,800</strong><a href="#contact">Book Tour</a></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="experience-band" id="experiences">
+          <div class="container">
+            <div class="row g-5 align-items-center">
+              <div class="col-lg-5 reveal">
+                <span class="section-label light">Why Choose Us</span>
+                <h2 class="section-title text-white">Travel that feels private, precise, and deeply considered.</h2>
+                <p class="text-white-50">Our planners work like editors: refining every route, hotel, transfer, guide, and hidden detail until the journey feels seamless.</p>
+              </div>
+              <div class="col-lg-7">
+                <div class="row g-3">
+                  <div class="col-sm-6 reveal"><div class="why-card"><i class="bi bi-shield-check"></i><h3>Safe Planning</h3><p>Trusted partners and clear support before and during your journey.</p></div></div>
+                  <div class="col-sm-6 reveal delay-1"><div class="why-card"><i class="bi bi-gem"></i><h3>Premium Comfort</h3><p>Hotels and experiences chosen for atmosphere, detail, and service.</p></div></div>
+                  <div class="col-sm-6 reveal delay-2"><div class="why-card"><i class="bi bi-map"></i><h3>Local Culture</h3><p>Meaningful encounters, expert guides, and places beyond the obvious.</p></div></div>
+                  <div class="col-sm-6 reveal delay-3"><div class="why-card"><i class="bi bi-headset"></i><h3>24/7 Support</h3><p>Human assistance whenever your route needs a quick adjustment.</p></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad testimonials">
+          <div class="container">
+            <div class="section-heading text-center reveal">
+              <span class="section-label">Testimonials</span>
+              <h2 class="section-title">What Our Travelers Say</h2>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-4 reveal"><div class="testimonial-card"><i class="bi bi-quote"></i><p>Every detail was handled beautifully. Japan felt effortless, personal, and deeply memorable.</p><h4>Sarah Jenkins</h4><span>Family Traveler</span></div></div>
+              <div class="col-md-4 reveal delay-1"><div class="testimonial-card"><i class="bi bi-quote"></i><p>The safari was beyond expectation. The guides, camps, and timing were absolutely perfect.</p><h4>Michael Chen</h4><span>Photographer</span></div></div>
+              <div class="col-md-4 reveal delay-2"><div class="testimonial-card"><i class="bi bi-quote"></i><p>trawell created a honeymoon in Greece that felt romantic, relaxed, and completely ours.</p><h4>Elena Rodriguez</h4><span>Couple Traveler</span></div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta-section" id="contact">
+          <div class="container">
+            <div class="cta-box text-center reveal">
+              <span class="section-label">Start Planning</span>
+              <h2>Ready to begin your next extraordinary journey?</h2>
+              <p>Tell us where you want to go. We will shape the route, rhythm, and details around you.</p>
+              <form class="newsletter" id="newsletterForm">
+                <input type="email" placeholder="Enter your email address" required />
+                <button type="submit">Request Itinerary</button>
+              </form>
+              <div class="form-message" id="formMessage" role="status"></div>
+            </div>
+          </div>
+        </section>
+      </main> 
+
+      <footer class="footer"> 
+        <div class="container">
+          <div class="row g-4 align-items-start">
+            <div class="col-lg-4">
+              <a class="footer-brand" href="#home"><span class="brand-mark"><i class="bi bi-asterisk"></i></span>
+              <span class="brand-text">Trawell</span></a>
+              <p>Premium curated journeys for modern explorers who value comfort, culture, and discovery.</p>
+            </div>
+            <div class="col-6 col-lg-2"><h5>Company</h5><a href="#about">About</a><a href="#packages">Packages</a><a href="#destinations">Destinations</a></div>
+            <div class="col-6 col-lg-2"><h5>Support</h5><a href="#contact">Contact</a><a href="#home">FAQ</a><a href="#home">Privacy</a></div>
+            <div class="col-lg-4"><h5>Contact</h5><p class="mb-2"><i class="bi bi-geo-alt"></i> Kerala,India</p><p class="mb-2"><i class="bi bi-telephone"></i> +91 0012300000</p><p><i class="bi bi-envelope"></i> hello@trawell.com</p></div>
+          </div>
+          <div class="footer-bottom"><span>© <span id="year"></span> trawell. All rights reserved.</span><span>Designed with HTML, CSS, Bootstrap & JavaScript.</span></div>
+        </div>
+      </footer> 
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
